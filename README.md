@@ -16,3 +16,19 @@ webrtc_ros is released with a BSD license. For full terms and conditions, see th
 
 ### Authors
 See the [AUTHORS](AUTHORS.md) file for a full list of contributors.
+
+### Installation
+The following libraries might need to be installed on top of the HR stack to be installed. Applies to ubuntu 14.04.
+```
+sudo apt-get install ros-indigo-async-web-server-cpp libasound2-dev libpulse-dev libudev-dev libnss3-dev libdbus-glib-1-dev default-jdk
+```
+
+### Runing 
+```
+rosrun webrtc_ros webrtc_ros_server_node
+```
+May need to use STUN and TURN servers for connecting from internet.
+
+
+
+
